@@ -1,0 +1,70 @@
+11:03:51.386 [main] INFO - 1. Connection opened. {executed in 315ms} 
+
+11:03:51.483 [main] INFO - 1. SELECT no_cli, cd_post FROM id_client where no_cli='10000003'  {executed in 17 ms}
+
+11:03:51.498 [main] INFO - 1. update fct_semaphore set statut = 'tadam'  {executed in 3 ms}
+
+11:03:51.500 [main] INFO - 1. Connection closed. {executed in 2ms} 
+
+11:04:18.417 [main] INFO - 1. Connection opened. {executed in 332ms} 
+
+11:04:18.511 [main] INFO - 1. SELECT no_cli, cd_post FROM id_client where no_cli='10000003'  {executed in 16 ms}
+
+11:04:18.525 [main] INFO - 1. update fct_semaphore set statut = 'tadam'  {executed in 2 ms}
+
+11:04:18.528 [main] INFO - 1. Connection closed. {executed in 2ms} 
+
+11:05:09.590 [main] INFO - 1. Connection opened. {executed in 338ms} 
+
+11:05:09.685 [main] INFO - 1. SELECT no_cli, cd_post FROM id_client where no_cli='10000003'  {executed in 18 ms}
+
+11:05:09.707 [main] INFO - 1. update fct_semaphore set statut = 'tadam'  {executed in 10 ms}
+
+11:05:09.711 [main] INFO - 1. Connection closed. {executed in 2ms} 
+
+11:21:43.001 [main] INFO - 1. Connection opened. {executed in 332ms} 
+
+11:21:43.115 [main] INFO - 1. SELECT no_cli, cd_post FROM id_client where no_cli='10000003'  {executed in 36 ms}
+
+11:21:43.130 [main] INFO - 1. update fct_semaphore set statut = 'tadam'  {executed in 4 ms}
+
+11:21:43.136 [main] INFO - 1. Connection closed. {executed in 2ms} 
+
+11:22:42.665 [main] INFO - 1. Connection opened. {executed in 297ms} 
+
+11:22:42.759 [main] INFO - 1. SELECT no_cli, cd_post FROM id_client where no_cli='10000003'  {executed in 16 ms}
+
+11:22:42.773 [main] INFO - 1. update fct_semaphore set statut = 'tadam'  {executed in 3 ms}
+
+11:22:42.778 [main] INFO - 1. Connection closed. {executed in 1ms} 
+
+11:23:11.409 [main] INFO - 1. Connection opened. {executed in 347ms} 
+
+11:23:11.508 [main] INFO - 1. SELECT no_cli, cd_post FROM id_client where no_cli='10000003'  {executed in 17 ms}
+
+11:23:11.522 [main] INFO - 1. update fct_semaphore set statut = 'tadam'  {executed in 3 ms}
+
+11:39:23.117 [main] INFO - 1. Connection opened. {executed in 384ms} 
+
+11:39:23.215 [main] INFO - 1. SELECT no_cli, cd_post FROM id_client where no_cli='10000003'  {executed in 19 ms}
+
+11:39:23.235 [main] INFO - 1. update fct_semaphore set statut = 'tadam'  {executed in 8 ms}
+
+11:39:23.241 [main] INFO - 1. Connection closed. {executed in 2ms} 
+
+11:47:06.367 [main] INFO - 1. Connection opened. {executed in 304ms} 
+
+11:47:06.459 [main] INFO - 1. SELECT no_cli, cd_post FROM id_client where no_cli='10000003'  {executed in 16 ms}
+
+11:47:06.474 [main] INFO - 1. update fct_semaphore set statut = 'tadam'  {executed in 4 ms}
+
+11:47:06.479 [main] INFO - 1. Connection closed. {executed in 1ms} 
+
+11:47:36.502 [main] INFO - 1. Connection opened. {executed in 403ms} 
+
+11:47:36.602 [main] INFO - 1. SELECT no_cli, cd_post FROM id_client where no_cli='10000003'  {executed in 16 ms}
+
+11:47:36.617 [main] INFO - 1. update fct_semaphore set statut = 'tadam'  {executed in 3 ms}
+
+11:47:36.622 [main] INFO - 1. Connection closed. {executed in 2ms} 
+

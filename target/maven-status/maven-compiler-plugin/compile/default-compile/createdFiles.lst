@@ -1,0 +1,5 @@
+com\videotron\tests\Groupe.class
+com\videotron\tests\Client.class
+com\videotron\tests\Main.class
+com\videotron\tests\MySqlBindVariableTest.class
+com\videotron\tests\Service.class

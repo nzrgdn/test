@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration status="OFF">
+
+	<Properties>
+		<Property name="log-path">./logs</Property>
+	</Properties>
+	<appenders>
+		<Console name="Console" target="SYSTEM_OUT" follow="true">
+			<PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %level - %m%n%ex%n" />
+		</Console>
+		<File name="log4jdbc_file" fileName="${log-path}/log4jdbc.out">
+			<PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %level - %m%n%ex%n" />
+		</File>
+		<RollingFile name="RollingFile" fileName="${log-path}/myexample.log"
+			filePattern="${log-path}/myexample-%d{yyyy-MM-dd}-%i.log">
+			<PatternLayout>
+				<pattern>%d{dd/MMM/yyyy HH:mm:ss,SSS}- %c{1}: %m%n</pattern>
+			</PatternLayout>
+			<Policies>
+				<SizeBasedTriggeringPolicy size="10 MB" />
+			</Policies>
+			<DefaultRolloverStrategy max="4" />
+		</RollingFile>
+	</appenders>
+	<loggers>
+		<root level="info" additivity="false">
+			<appender-ref ref="RollingFile" />
+		</root>
+		<logger name="log4jdbc.log4j2" level="info" additivity="false">
+			<MarkerFilter marker="LOG4JDBC_OTHER" onMatch="DENY"
+				onMismatch="NEUTRAL" />
+			<appender-ref ref="log4jdbc_file" />
+		</logger>
+		<Logger name="root" level="info" additivity="false">
+			<appender-ref ref="RollingFile" />
+		</Logger>
+	</loggers>
+</configuration>
